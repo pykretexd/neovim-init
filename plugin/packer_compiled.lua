@@ -80,7 +80,7 @@ _G.packer_plugins = {
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   catppuccin = {
-    config = { "\27LJ\2\nØ\5\0\0\5\0\31\0/6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\0035\4\v\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\0034\4\0\0=\4\16\0034\4\0\0=\4\17\0034\4\0\0=\4\18\0034\4\0\0=\4\19\0034\4\0\0=\4\20\0034\4\0\0=\4\21\0034\4\0\0=\4\22\3=\3\23\0024\3\0\0=\3\24\0024\3\0\0=\3\25\0025\3\26\0=\3\27\2B\0\2\0016\0\28\0009\0\29\0'\2\30\0B\0\2\1K\0\1\0!colorscheme catppuccin-mocha\bcmd\bvim\17integrations\1\0\6\vnotify\1\tmini\1\14telescope\2\rnvimtree\2\rgitsigns\2\bcmp\2\22custom_highlights\20color_overrides\vstyles\14operators\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\1\2\0\0\vitalic\rcomments\1\0\0\1\2\0\0\vitalic\17dim_inactive\1\0\3\15percentage\4≥ÊÃô\3≥Êå˛\3\nshade\tdark\fenabled\1\15background\1\0\2\nlight\nlatte\tdark\nmocha\1\0\6\fflavour\nmocha\fno_bold\1\14no_italic\1\16term_colors\2\23show_end_of_buffer\1\27transparent_background\2\nsetup\15catppuccin\frequire\0" },
+    config = { "\27LJ\2\nØ\5\0\0\5\0\31\0/6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\0035\4\v\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\0034\4\0\0=\4\16\0034\4\0\0=\4\17\0034\4\0\0=\4\18\0034\4\0\0=\4\19\0034\4\0\0=\4\20\0034\4\0\0=\4\21\0034\4\0\0=\4\22\3=\3\23\0024\3\0\0=\3\24\0024\3\0\0=\3\25\0025\3\26\0=\3\27\2B\0\2\0016\0\28\0009\0\29\0'\2\30\0B\0\2\1K\0\1\0!colorscheme catppuccin-mocha\bcmd\bvim\17integrations\1\0\6\bcmp\2\vnotify\1\tmini\1\14telescope\2\rnvimtree\2\rgitsigns\2\22custom_highlights\20color_overrides\vstyles\14operators\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\1\2\0\0\vitalic\rcomments\1\0\0\1\2\0\0\vitalic\17dim_inactive\1\0\3\fenabled\1\15percentage\4≥ÊÃô\3≥Êå˛\3\nshade\tdark\15background\1\0\2\nlight\nlatte\tdark\nmocha\1\0\6\23show_end_of_buffer\1\27transparent_background\2\fflavour\nmocha\fno_bold\1\14no_italic\1\16term_colors\2\nsetup\15catppuccin\frequire\0" },
     loaded = true,
     path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
     url = "https://github.com/catppuccin/nvim"
@@ -135,6 +135,17 @@ _G.packer_plugins = {
     path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neo-tree.nvim"] = {
+    config = { "\27LJ\2\nÔ\22\0\0\a\0H\0m6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0009\0\4\0'\2\5\0005\3\6\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\a\0005\3\b\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\t\0005\3\n\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\v\0005\3\f\0B\0\3\0016\0\r\0'\2\14\0B\0\2\0029\0\15\0005\2\16\0005\3\17\0=\3\18\0025\3\20\0005\4\19\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\0035\4\31\0005\5\30\0=\5 \4=\4!\3=\3\"\0024\3\0\0=\3#\0025\3$\0005\4%\0=\4&\0035\4'\0005\5(\0005\6)\0=\6*\5=\5+\0045\5,\0005\6-\0=\6*\5=\5.\4=\4/\3=\0030\0024\3\0\0=\0031\0025\0039\0005\0042\0004\5\0\0=\0053\0044\5\0\0=\0054\0045\0055\0=\0056\0044\5\0\0=\0057\0044\5\0\0=\0058\4=\4:\0035\4<\0005\5;\0=\5/\0045\5=\0=\5>\4=\0040\0034\4\0\0=\4#\3=\3?\0025\3@\0005\4B\0005\5A\0=\5/\4=\0040\3=\3C\0025\3F\0005\4D\0005\5E\0=\5/\4=\0040\3=\3!\2B\0\2\0016\0\0\0009\0\1\0'\2G\0B\0\2\1K\0\1\0#nnoremap \\ :Neotree reveal<cr>\1\0\0\1\0\a\aga\17git_add_file\agu\21git_unstage_file\agc\15git_commit\6A\16git_add_all\agp\rgit_push\agr\20git_revert_file\agg\24git_commit_and_push\1\0\1\rposition\nfloat\fbuffers\1\0\0\1\0\3\6.\rset_root\t<bs>\16navigate_up\abd\18buffer_delete\1\0\3\18show_unloaded\2\21group_empty_dirs\2\24follow_current_file\2\15filesystem\26fuzzy_finder_mappings\1\0\4\n<C-p>\19move_cursor_up\n<C-n>\21move_cursor_down\t<up>\19move_cursor_up\v<down>\21move_cursor_down\1\0\0\1\0\n\6#\17fuzzy_sorter\a[g\22prev_git_modified\6.\rset_root\n<c-x>\17clear_filter\6f\21filter_on_submit\t<bs>\16navigate_up\6D\27fuzzy_finder_directory\6H\18toggle_hidden\6/\17fuzzy_finder\a]g\22next_git_modified\19filtered_items\1\0\4\27use_libuv_file_watcher\1\21group_empty_dirs\1\26hijack_netrw_behavior\17open_default\24follow_current_file\1\26never_show_by_pattern\15never_show\16always_show\1\2\0\0\16.gitignored\20hide_by_pattern\17hide_by_name\1\0\4\18hide_dotfiles\2\20hide_gitignored\2\fvisible\1\16hide_hidden\2\18nesting_rules\vwindow\rmappings\6a\1\0\1\14show_path\tnone\1\2\0\0\badd\6P\vconfig\1\0\1\14use_float\2\1\2\0\0\19toggle_preview\1\0\23\6s\16open_vsplit\6S\15open_split\t<cr>\topen\6x\21cut_to_clipboard\6y\22copy_to_clipboard\n<esc>\19revert_preview\6r\vrename\6C\15close_node\6c\tcopy\6t\16open_tabnew\6m\tmove\18<2-LeftMouse>\topen\6q\17close_window\6?\14show_help\6<\16prev_source\6>\16next_source\6l\18focus_preview\6p\25paste_from_clipboard\6A\18add_directory\6z\20close_all_nodes\6w\28open_with_window_picker\6d\vdelete\6R\frefresh\20mapping_options\1\0\2\vnowait\2\fnoremap\2\1\0\2\nwidth\3(\rposition\tleft\rcommands\30default_component_configs\15git_status\fsymbols\1\0\0\1\0\t\fignored\bÔë¥\fdeleted\bÔëß\nadded\b‚úö\14untracked\bÔÑ®\frenamed\bÓ™ú\vstaged\bÔÅÜ\runstaged\tÛ∞Ñ±\rmodified\bÔëÑ\rconflict\bÓúß\tname\1\0\3\26use_git_status_colors\2\14highlight\20NeoTreeFileName\19trailing_slash\1\rmodified\1\0\2\vsymbol\b[+]\14highlight\20NeoTreeModified\ticon\1\0\5\fdefault\6*\18folder_closed\bÓóø\17folder_empty\bÔÑî\16folder_open\bÓóæ\14highlight\20NeoTreeFileIcon\vindent\1\0\t\23expander_collapsed\bÔë†\14highlight\24NeoTreeIndentMarker\22expander_expanded\bÔëº\17with_markers\2\23expander_highlight\20NeoTreeExpander\fpadding\3\1\16indent_size\3\2\18indent_marker\b‚îÇ\23last_indent_marker\b‚îî\14container\1\0\0\1\0\1\26enable_character_fade\2$open_files_do_not_replace_types\1\4\0\0\rterminal\ftrouble\aqf\1\0\5\25close_if_last_window\1\23enable_diagnostics\2\23popup_border_style\frounded\22enable_git_status\2\26sort_case_insensitive\1\nsetup\rneo-tree\frequire\1\0\2\ttext\tÛ∞åµ\vtexthl\23DiagnosticSignHint\23DiagnosticSignHint\1\0\2\ttext\tÔÅö \vtexthl\23DiagnosticSignInfo\23DiagnosticSignInfo\1\0\2\ttext\tÔÅ± \vtexthl\23DiagnosticSignWarn\23DiagnosticSignWarn\1\0\2\ttext\tÔÅó \vtexthl\24DiagnosticSignError\24DiagnosticSignError\16sign_define\afn0 let g:neo_tree_remove_legacy_commands = 1 \bcmd\bvim\0" },
+    loaded = true,
+    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
@@ -162,6 +173,17 @@ _G.packer_plugins = {
     path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["nvim-window-picker"] = {
+    config = { "\27LJ\2\n˛\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\t\0005\4\5\0005\5\4\0=\5\6\0045\5\a\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\17filter_rules\abo\1\0\0\fbuftype\1\3\0\0\rterminal\rquickfix\rfiletype\1\0\0\1\4\0\0\rneo-tree\19neo-tree-popup\vnotify\1\0\3\23other_win_hl_color\f#e35e4f\19autoselect_one\2\20include_current\1\nsetup\18window-picker\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-window-picker",
+    url = "https://github.com/s1n7ax/nvim-window-picker"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -177,10 +199,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["refactoring.nvim"] = {
+  ["presence.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\refactoring.nvim",
-    url = "https://github.com/ThePrimeagen/refactoring.nvim"
+    path = "C:\\Users\\sixte\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -206,18 +228,26 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: neo-tree.nvim
+time([[Config for neo-tree.nvim]], true)
+try_loadstring("\27LJ\2\nÔ\22\0\0\a\0H\0m6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0009\0\4\0'\2\5\0005\3\6\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\a\0005\3\b\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\t\0005\3\n\0B\0\3\0016\0\0\0009\0\3\0009\0\4\0'\2\v\0005\3\f\0B\0\3\0016\0\r\0'\2\14\0B\0\2\0029\0\15\0005\2\16\0005\3\17\0=\3\18\0025\3\20\0005\4\19\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\0035\4\31\0005\5\30\0=\5 \4=\4!\3=\3\"\0024\3\0\0=\3#\0025\3$\0005\4%\0=\4&\0035\4'\0005\5(\0005\6)\0=\6*\5=\5+\0045\5,\0005\6-\0=\6*\5=\5.\4=\4/\3=\0030\0024\3\0\0=\0031\0025\0039\0005\0042\0004\5\0\0=\0053\0044\5\0\0=\0054\0045\0055\0=\0056\0044\5\0\0=\0057\0044\5\0\0=\0058\4=\4:\0035\4<\0005\5;\0=\5/\0045\5=\0=\5>\4=\0040\0034\4\0\0=\4#\3=\3?\0025\3@\0005\4B\0005\5A\0=\5/\4=\0040\3=\3C\0025\3F\0005\4D\0005\5E\0=\5/\4=\0040\3=\3!\2B\0\2\0016\0\0\0009\0\1\0'\2G\0B\0\2\1K\0\1\0#nnoremap \\ :Neotree reveal<cr>\1\0\0\1\0\a\aga\17git_add_file\agu\21git_unstage_file\agc\15git_commit\6A\16git_add_all\agp\rgit_push\agr\20git_revert_file\agg\24git_commit_and_push\1\0\1\rposition\nfloat\fbuffers\1\0\0\1\0\3\6.\rset_root\t<bs>\16navigate_up\abd\18buffer_delete\1\0\3\18show_unloaded\2\21group_empty_dirs\2\24follow_current_file\2\15filesystem\26fuzzy_finder_mappings\1\0\4\n<C-p>\19move_cursor_up\n<C-n>\21move_cursor_down\t<up>\19move_cursor_up\v<down>\21move_cursor_down\1\0\0\1\0\n\6#\17fuzzy_sorter\a[g\22prev_git_modified\6.\rset_root\n<c-x>\17clear_filter\6f\21filter_on_submit\t<bs>\16navigate_up\6D\27fuzzy_finder_directory\6H\18toggle_hidden\6/\17fuzzy_finder\a]g\22next_git_modified\19filtered_items\1\0\4\27use_libuv_file_watcher\1\21group_empty_dirs\1\26hijack_netrw_behavior\17open_default\24follow_current_file\1\26never_show_by_pattern\15never_show\16always_show\1\2\0\0\16.gitignored\20hide_by_pattern\17hide_by_name\1\0\4\18hide_dotfiles\2\20hide_gitignored\2\fvisible\1\16hide_hidden\2\18nesting_rules\vwindow\rmappings\6a\1\0\1\14show_path\tnone\1\2\0\0\badd\6P\vconfig\1\0\1\14use_float\2\1\2\0\0\19toggle_preview\1\0\23\6s\16open_vsplit\6S\15open_split\t<cr>\topen\6x\21cut_to_clipboard\6y\22copy_to_clipboard\n<esc>\19revert_preview\6r\vrename\6C\15close_node\6c\tcopy\6t\16open_tabnew\6m\tmove\18<2-LeftMouse>\topen\6q\17close_window\6?\14show_help\6<\16prev_source\6>\16next_source\6l\18focus_preview\6p\25paste_from_clipboard\6A\18add_directory\6z\20close_all_nodes\6w\28open_with_window_picker\6d\vdelete\6R\frefresh\20mapping_options\1\0\2\vnowait\2\fnoremap\2\1\0\2\nwidth\3(\rposition\tleft\rcommands\30default_component_configs\15git_status\fsymbols\1\0\0\1\0\t\fignored\bÔë¥\fdeleted\bÔëß\nadded\b‚úö\14untracked\bÔÑ®\frenamed\bÓ™ú\vstaged\bÔÅÜ\runstaged\tÛ∞Ñ±\rmodified\bÔëÑ\rconflict\bÓúß\tname\1\0\3\26use_git_status_colors\2\14highlight\20NeoTreeFileName\19trailing_slash\1\rmodified\1\0\2\vsymbol\b[+]\14highlight\20NeoTreeModified\ticon\1\0\5\fdefault\6*\18folder_closed\bÓóø\17folder_empty\bÔÑî\16folder_open\bÓóæ\14highlight\20NeoTreeFileIcon\vindent\1\0\t\23expander_collapsed\bÔë†\14highlight\24NeoTreeIndentMarker\22expander_expanded\bÔëº\17with_markers\2\23expander_highlight\20NeoTreeExpander\fpadding\3\1\16indent_size\3\2\18indent_marker\b‚îÇ\23last_indent_marker\b‚îî\14container\1\0\0\1\0\1\26enable_character_fade\2$open_files_do_not_replace_types\1\4\0\0\rterminal\ftrouble\aqf\1\0\5\25close_if_last_window\1\23enable_diagnostics\2\23popup_border_style\frounded\22enable_git_status\2\26sort_case_insensitive\1\nsetup\rneo-tree\frequire\1\0\2\ttext\tÛ∞åµ\vtexthl\23DiagnosticSignHint\23DiagnosticSignHint\1\0\2\ttext\tÔÅö \vtexthl\23DiagnosticSignInfo\23DiagnosticSignInfo\1\0\2\ttext\tÔÅ± \vtexthl\23DiagnosticSignWarn\23DiagnosticSignWarn\1\0\2\ttext\tÔÅó \vtexthl\24DiagnosticSignError\24DiagnosticSignError\16sign_define\afn0 let g:neo_tree_remove_legacy_commands = 1 \bcmd\bvim\0", "config", "neo-tree.nvim")
+time([[Config for neo-tree.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
+time([[Config for nvim-surround]], false)
+-- Config for: nvim-window-picker
+time([[Config for nvim-window-picker]], true)
+try_loadstring("\27LJ\2\n˛\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\t\0005\4\5\0005\5\4\0=\5\6\0045\5\a\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\17filter_rules\abo\1\0\0\fbuftype\1\3\0\0\rterminal\rquickfix\rfiletype\1\0\0\1\4\0\0\rneo-tree\19neo-tree-popup\vnotify\1\0\3\23other_win_hl_color\f#e35e4f\19autoselect_one\2\20include_current\1\nsetup\18window-picker\frequire\0", "config", "nvim-window-picker")
+time([[Config for nvim-window-picker]], false)
 -- Config for: treesj
 time([[Config for treesj]], true)
 try_loadstring("\27LJ\2\nP\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\24use_default_keymaps\2\nsetup\vtreesj\frequire\0", "config", "treesj")
 time([[Config for treesj]], false)
 -- Config for: catppuccin
 time([[Config for catppuccin]], true)
-try_loadstring("\27LJ\2\nØ\5\0\0\5\0\31\0/6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\0035\4\v\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\0034\4\0\0=\4\16\0034\4\0\0=\4\17\0034\4\0\0=\4\18\0034\4\0\0=\4\19\0034\4\0\0=\4\20\0034\4\0\0=\4\21\0034\4\0\0=\4\22\3=\3\23\0024\3\0\0=\3\24\0024\3\0\0=\3\25\0025\3\26\0=\3\27\2B\0\2\0016\0\28\0009\0\29\0'\2\30\0B\0\2\1K\0\1\0!colorscheme catppuccin-mocha\bcmd\bvim\17integrations\1\0\6\vnotify\1\tmini\1\14telescope\2\rnvimtree\2\rgitsigns\2\bcmp\2\22custom_highlights\20color_overrides\vstyles\14operators\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\1\2\0\0\vitalic\rcomments\1\0\0\1\2\0\0\vitalic\17dim_inactive\1\0\3\15percentage\4≥ÊÃô\3≥Êå˛\3\nshade\tdark\fenabled\1\15background\1\0\2\nlight\nlatte\tdark\nmocha\1\0\6\fflavour\nmocha\fno_bold\1\14no_italic\1\16term_colors\2\23show_end_of_buffer\1\27transparent_background\2\nsetup\15catppuccin\frequire\0", "config", "catppuccin")
+try_loadstring("\27LJ\2\nØ\5\0\0\5\0\31\0/6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\0035\4\v\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\0034\4\0\0=\4\16\0034\4\0\0=\4\17\0034\4\0\0=\4\18\0034\4\0\0=\4\19\0034\4\0\0=\4\20\0034\4\0\0=\4\21\0034\4\0\0=\4\22\3=\3\23\0024\3\0\0=\3\24\0024\3\0\0=\3\25\0025\3\26\0=\3\27\2B\0\2\0016\0\28\0009\0\29\0'\2\30\0B\0\2\1K\0\1\0!colorscheme catppuccin-mocha\bcmd\bvim\17integrations\1\0\6\bcmp\2\vnotify\1\tmini\1\14telescope\2\rnvimtree\2\rgitsigns\2\22custom_highlights\20color_overrides\vstyles\14operators\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\1\2\0\0\vitalic\rcomments\1\0\0\1\2\0\0\vitalic\17dim_inactive\1\0\3\fenabled\1\15percentage\4≥ÊÃô\3≥Êå˛\3\nshade\tdark\15background\1\0\2\nlight\nlatte\tdark\nmocha\1\0\6\23show_end_of_buffer\1\27transparent_background\2\fflavour\nmocha\fno_bold\1\14no_italic\1\16term_colors\2\nsetup\15catppuccin\frequire\0", "config", "catppuccin")
 time([[Config for catppuccin]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
-time([[Config for nvim-surround]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
